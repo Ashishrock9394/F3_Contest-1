@@ -8,7 +8,7 @@ async function loadMovies(searchInput, api) {
   let search = "avengers";
   let apiKey = document.getElementById("api").value;
   const res = await fetch(
-    `http://www.omdbapi.com/?i=tt3896198&page=1&apikey=${
+    `https://www.omdbapi.com/?i=tt3896198&page=1&apikey=${
       !api ? apiKey : api
     }&s=${!searchInput ? search : searchInput}`
   )
