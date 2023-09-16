@@ -5,7 +5,7 @@ let apiKey = "34b609ad";
 
 async function loadMovies(searchInput, api) {
   check();
-  let search = "avengers";
+  let search = "mission impossible";
   let apiKey = document.getElementById("api").value;
   const res = await fetch(
     `https://www.omdbapi.com/?i=tt3896198&page=1&apikey=${
